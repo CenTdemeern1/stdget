@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 from os import path
 from io import open
 with open(path.join(here, 'README.md'), encoding='utf-8') as f:
-long_description = f.read()
+    long_description = f.read()
 setup(
     name='stdget',
     version='1.0',
@@ -30,4 +30,4 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7'
         ]
-    keywords='sys std stdout stderr get stdget sys.stdout sys.stderr capture',
+    keywords='sys std stdout stderr get stdget sys.stdout sys.stderr capture')
