@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 from os import path
 from io import open
-with open(path.join(here, 'README.md'), encoding='utf-8') as f:
+with open(path.join(path.curdir, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 setup(
     name='stdget',
